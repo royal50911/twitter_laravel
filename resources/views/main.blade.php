@@ -22,7 +22,7 @@
 
 	<div class="jumbotron">
 		<div class="topcorner">
-			<a class="btn btn-primary" href="/" >Log Out</a>
+			<a class="btn btn-primary" href="auth/logout" >Log Out</a>
 		</div>
 		<div class="container">
 			<div class="btn-container">

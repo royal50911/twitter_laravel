@@ -15,5 +15,9 @@ Route::get('/', function () {
     return view('register');
 });
 
+Route::get('main', function () {
+    return view('main');
+});
+
 Route::get('auth/twitter', 'Auth\AuthController@redirectToProvider');
 Route::get('auth/twitter/callback', 'Auth\AuthController@handleProviderCallback');
